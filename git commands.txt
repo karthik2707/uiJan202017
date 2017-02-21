@@ -1,0 +1,15 @@
+
+cd /e/----->To change Directory
+mkdir name---> To make A Folder
+chmod -R 777 dirname----> Gives read/write permissions to dir name
+cd dirname-----> goes into dir
+git clone web address----> to clone the data from git
+ls------>shows the child directories
+git status----->Status about the repositories
+git init-------->Initialises an empty git repository in the folder we are
+git remote add original url->gets the git folder  deleted accidentally
+git add README.md---->adds readme file to the bridge
+git commit -m "newly added README.md file"
+git status
+git pull origin master --allow-unrelated-histories
+git push origin master
