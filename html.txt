@@ -1,0 +1,47 @@
+-The url is nothing but domain alias to IP adress
+-The HTML tells the browser where and how to render the files received from a website
+-The browser will not render the web page until all the files are downloaded in the cache
+-A <html> element will have only two child elements: Head and Body
+-In present we are dealing with html5
+
+Diff between html4 and html5?
+
+1. html5 introduced new elements like <video>,<audio>,<section>,<article>,ect...,
+2. html5 introduced concept of semantic html.
+3. html5 introduced the concept of media.
+4. html5 introduced the concept of storage.
+
+Why do we have to use html5?
+
+-garbage rendering is called as quirks mode in browser language
+-Doctype for html5 is <!DOCTYPE html>
+
+Browser interprets the elements via two ways:
+
+1.Block level elements: has dimensions
+2.inline level elements:doesnt have dimensions-takes dimensions from the child elements
+
+examples of block level elements :-
+1.Body
+2.div
+3.section,article,header,footer
+
+example of inline level elements :-
+1.span
+2.a
+3.image
+
+In html5 a new concept was introduced called 'trinity'
+<article>
+	<header></header>
+	<section></section>
+	<footer></footer>
+</article>
+
+<nav> navigation bar is present inside the header.
+
+There are two ways of having lists in html:
+1.ordered List
+2.unordered list
+the elements <ul> and <ol> can have only one child element that is <li>
+
